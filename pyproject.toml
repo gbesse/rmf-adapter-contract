@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rmf-adapter-contract"
+version = "0.1.0"
+description = "A local, inspectable robotics integration check."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "gbesse"}]
+dependencies = []
+
+[project.scripts]
+rmf-adapter-contract = "rmf_adapter_contract:main"
+
+[tool.setuptools]
+py-modules = ['rmf_adapter_contract', 'trace_sink']

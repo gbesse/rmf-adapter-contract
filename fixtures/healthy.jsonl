@@ -1,0 +1,7 @@
+{"at_ms":0,"event":"robot_online","robot":"r1"}
+{"at_ms":100,"event":"task_requested","task":"delivery-1"}
+{"at_ms":200,"event":"task_assigned","task":"delivery-1","robot":"r1"}
+{"at_ms":300,"event":"task_started","task":"delivery-1","robot":"r1"}
+{"at_ms":1000,"event":"heartbeat","robot":"r1"}
+{"at_ms":2000,"event":"task_completed","task":"delivery-1","robot":"r1"}
+{"at_ms":2100,"event":"robot_offline","robot":"r1"}
